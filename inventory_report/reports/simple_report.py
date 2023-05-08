@@ -2,8 +2,8 @@ from datetime import datetime
 
 
 class SimpleReport:
-    @classmethod
-    def generate(cls, produtos):
+    @staticmethod
+    def generate(produtos):
         data_de_fabricacao = min(
             [produto["data_de_fabricacao"] for produto in produtos]
         )
