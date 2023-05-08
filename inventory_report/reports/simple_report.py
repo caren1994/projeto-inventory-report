@@ -1,2 +1,4 @@
+
 class SimpleReport:
-    pass
+    @classmethod
+    
