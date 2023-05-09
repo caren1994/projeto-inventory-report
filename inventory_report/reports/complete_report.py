@@ -5,6 +5,9 @@ from inventory_report.reports.simple_report import SimpleReport
 #  (seja da classe ou de uma instância) e funciona como uma função
 # comum, sem relação.
 
+# se fosse usar o classmethod no lugar de
+#  Simplereport.generate seria super().generate
+
 
 class CompleteReport(SimpleReport):
     @staticmethod
