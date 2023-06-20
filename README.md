@@ -13,7 +13,7 @@ Python , Pytest
 Clone o projeto
 
 ```bash
-  git clone git@github.com:FranciscoCosta/inventoryReport.git
+  git clonegit@github.com:caren1994/projeto-inventory-report.gitt
   cd sd-024-a-inventory-report
 ```
 
